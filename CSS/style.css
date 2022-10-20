@@ -173,9 +173,40 @@ a:hover{
     box-shadow: 0 0.25rem 0 rgba(12, 0, 46, .05);
 }
 /* 3 Banner */
+.banner-wrapper .background_shape{
+    position: absolute;
+    top: 0;
+    height: calc(100vh - 4.0625rem);
+    left: 0;
+    right: 0;
+    background-position: center center;
+    background-image: url('../Images/my_photo.jpg');
+    background-size: cover;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%, 100% 62%);
+    z-index: -1;
+}
+.banner-wrapper .main-content{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding-top: 6.25rem;
+}
+.banner-wrapper .social-icon a img{
+    width: 3.125rem;
+    height: 3.125rem;
+    transition: 0.3s ease-in;
+}
+.banner-wrapper .social-icon a:hover img{
+    transform: translateY(-0.1225rem);
+}
 
 /* 4 Accordian Menu  */
 
 /* 4.1 about */
 
 /* 4.2 resume */
+
+
+/* 4.3 portfolio  */
+
+/* 4.4 service  */
