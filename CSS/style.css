@@ -95,12 +95,13 @@ h3{
     line-height: 1;
     color: var(--primary-text);
 }
-h4{
+/* h4{
     font-size: 1.875rem;
     font-weight: 700;
     line-height: 1;
     color: var(--primary-text);
-}
+} */
+
 h5{
     font-size: 1.375rem;
     line-height: 1.5;
@@ -201,7 +202,10 @@ a:hover{
 }
 
 /* 4 Accordian Menu  */
-
+.main_menu_wrapper .accordion-item{
+    background-color: transparent;
+    margin:0 0 1.5625rem;
+}
 /* 4.1 about */
 
 /* 4.2 resume */
