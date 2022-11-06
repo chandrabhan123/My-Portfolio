@@ -309,8 +309,61 @@ a:hover {
 }
 
 /* 4.2 resume */
-
+.resume_wrapper .title h2{
+    padding-left: 2.5rem;
+    font-size: 2.1875rem;
+}
+.resume_wrapper .shape{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    border: .1875rem solid var(--primary-color);
+}
+.resume_wrapper .shape:before{
+    position: absolute;
+    content: '';
+    width:.5rem ;
+    height:.5rem ;
+    border-radius: 100%;
+    background-color:var(--primary-color) ;
+    top:50% ;
+    left:50% ;
+    transform: translate(-50%,-50%);
+}
+.resume_wrapper .year span{
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    border-radius: 3.125rem;
+    padding: .5rem 2.1875rem .4375rem;
+    border:.0625rem solid var(--primary-color);
+}
+.resume_wrapper .progress{
+    height: .4375rem;
+    border-radius: 3.125rem;
+    background-color: var(--dark-light-color);
+    opacity: 0.80;
+    margin-top: 1.5625rem;
+}
+.resume_wrapper .progress-bar{
+    background-color: var(--primary-color);
+    position: absolute;
+    height: .3125rem;
+    top: 3.125rem;
+    border-radius: 3.125rem;
+}
+.resume_wrapper .progress span{
+    position: absolute;
+    right: 0;
+    top: 1.25rem;
+    color: var(--primary-color);
+}
 
 /* 4.3 portfolio  */
 
 /* 4.4 service  */
+
+/* 4.6 blog */

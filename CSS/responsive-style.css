@@ -103,6 +103,12 @@
     }
 
     /* resume */
+    .resume_wrapper .title h2{
+        font-size: 1.25rem;
+    }
+    .resume_wrapper .title h4{
+        font-size: 1rem !important;
+    }
 }
 
 @media (max-width:576px) {
@@ -152,6 +158,13 @@
     }
 
     /* resume  */
+    .resume_wrapper .year span{
+        font-size: .875rem;
+        padding: .4375rem 1.875rem;
+        margin-top: 1.25rem;
+        display: inline-block;
+    }
+
 
     /* testimonial  */
 }
