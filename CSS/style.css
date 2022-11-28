@@ -363,7 +363,25 @@ a:hover {
 }
 
 /* 4.3 portfolio  */
-
+.portfolio_wrapper .nav-link{
+    color: var(--text-white);
+    font-weight: 600;
+    font-size: 1.502rem;
+    letter-spacing: 0.525rem;
+    text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #fd0d85;
+}
+.portfolio_wrapper .portfolio-img{
+    width: 100%;
+    /* min-height: 10.75rem; */
+    /* height: 100%; */
+    border-radius: .9375rem;
+    cursor: pointer;
+    position: relative;
+}
 /* 4.4 service  */
 
 /* 4.6 blog */
