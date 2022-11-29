@@ -146,9 +146,9 @@ a:hover {
     color: var(--primary-text);
 }
 
-.icon-design {
-    width: 5.625rem;
-    height: 5.625rem;
+.icon_design {
+    width: 6.625rem;
+    height: 6.625rem;
     background-color: var(--secondary-color);
     border-radius: 100%;
     display: flex;
@@ -372,7 +372,7 @@ a:hover {
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #fd0d85;
+    background-color: hwb(5 5% 1%);
 }
 .portfolio_wrapper .portfolio-img{
     width: 100%;
@@ -382,6 +382,22 @@ a:hover {
     cursor: pointer;
     position: relative;
 }
+
 /* 4.4 service  */
+.services_wrapper .card{
+    border-radius: .9375rem;
+    background-color: var(--bg-dark-gray);
+    padding: 3.75rem 2.5rem 3.625rem;
+    text-align: center;
+    align-items: center;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.services_wrapper .card:hover{
+    background-color: var(--primary-color);
+}
 
 /* 4.6 blog */
