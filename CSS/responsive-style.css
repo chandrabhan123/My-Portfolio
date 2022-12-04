@@ -83,9 +83,19 @@
       .services_wrapper .card{
         padding: 1.75rem 1.5rem;
       }
+/* about  */
 
     /* testimonial  */
-    /* about  */
+    .testimonial_wrapper .profile-box{
+        padding: 1rem;
+    }
+    .testimonial_wrapper .card{
+        padding: 1.125rem;
+    }
+    .testimonial_wrapper .desc-box{
+        padding-left: 1rem;
+    }
+    
 
 }
 
@@ -177,7 +187,21 @@
 
 
     /* testimonial  */
+    .testimonial_wrapper .carousel-indicators{
+        bottom: 1rem;
+    }
+    .testimonial_wrapper .profile-box{
+       text-align: center;
+       border-radius: .5rem 0.5rem 0 0;
+    }
+    .testimonial_wrapper .card{
+        border-radius: 0 0 .5rem .5rem;
+    }
+    .testimonial_wrapper .desc-box img{
+        width: 100%;
+    }
 }
+
 
 @media (max-width:490px) {
 
